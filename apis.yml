@@ -1,10 +1,11 @@
+aid: microsoft-office-pack
 name: Microsoft Office Pack
 description: A collection of APIs for Microsoft Office productivity applications including Word, Excel, PowerPoint, Outlook, and OneDrive
 image: https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2020/04/Microsoft-365-logo.png
 created: '2024'
-modified: '2024'
-specificationVersion: '0.18'
-url: https://api.example.com/apis.json
+modified: '2026-03-16'
+specificationVersion: '0.19'
+url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-pack/refs/heads/main/apis.yml
 apis:
 - name: Microsoft Graph API
   description: Unified API endpoint for accessing Microsoft 365 services including Office applications
@@ -122,6 +123,5 @@ common:
 - type: Blog
   url: https://developer.microsoft.com/microsoft-365/blogs/
 maintainers:
-- name: Microsoft
-  email: graphsdks@microsoft.com
-  url: https://www.microsoft.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
