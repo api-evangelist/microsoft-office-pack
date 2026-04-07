@@ -3,13 +3,11 @@ name: Microsoft Office Pack
 description: >-
   A collection of APIs for Microsoft Office productivity applications including Word,
   Excel, PowerPoint, Outlook, and OneDrive.
-image: 
-  https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2020/04/Microsoft-365-logo.png
+image: https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2020/04/Microsoft-365-logo.png
 created: '2024'
 modified: '2026-03-16'
 specificationVersion: '0.19'
-url: 
-  https://raw.githubusercontent.com/api-evangelist/microsoft-office-pack/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-pack/refs/heads/main/apis.yml
 apis:
   - name: Microsoft Graph API
     description: >-
@@ -18,23 +16,21 @@ apis:
     humanUrl: https://developer.microsoft.com/graph
     baseUrl: https://graph.microsoft.com/v1.0
     tags:
-      - Office
-      - Productivity
       - Cloud
       - Microsoft 365
+      - Office
+      - Productivity
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/graph/api/overview
       - type: OpenAPI
-        url: 
-          https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
+        url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
       - type: Authentication
         url: https://learn.microsoft.com/graph/auth/
       - type: SDKs
         url: https://learn.microsoft.com/graph/sdks/sdks-overview
       - type: Pricing
-        url: 
-          https://www.microsoft.com/microsoft-365/enterprise/compare-office-365-plans
+        url: https://www.microsoft.com/microsoft-365/enterprise/compare-office-365-plans
     contact:
       - type: Support
         url: https://developer.microsoft.com/graph/support
@@ -44,38 +40,34 @@ apis:
     humanUrl: https://learn.microsoft.com/graph/api/resources/word
     baseUrl: https://graph.microsoft.com/v1.0/me/drive/items/{id}/workbook
     tags:
-      - Word
       - Documents
       - Text Processing
+      - Word
     properties:
       - type: Documentation
-        url: 
-          https://learn.microsoft.com/office/dev/add-ins/word/word-add-ins-programming-overview
+        url: https://learn.microsoft.com/office/dev/add-ins/word/word-add-ins-programming-overview
       - type: QuickStart
-        url: 
-          https://learn.microsoft.com/office/dev/add-ins/quickstarts/word-quickstart
+        url: https://learn.microsoft.com/office/dev/add-ins/quickstarts/word-quickstart
   - name: Excel API
     description: >-
       API for working with Excel workbooks, worksheets, charts, and tables.
     humanUrl: https://learn.microsoft.com/graph/api/resources/excel
     baseUrl: https://graph.microsoft.com/v1.0/me/drive/items/{id}/workbook
     tags:
+      - Data Analysis
       - Excel
       - Spreadsheets
-      - Data Analysis
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/graph/api/resources/excel
       - type: QuickStart
-        url: 
-          https://learn.microsoft.com/office/dev/add-ins/quickstarts/excel-quickstart-jquery
+        url: https://learn.microsoft.com/office/dev/add-ins/quickstarts/excel-quickstart-jquery
       - type: Samples
         url: https://github.com/OfficeDev/Office-Add-in-samples
   - name: PowerPoint API
     description: >-
       API for creating and modifying PowerPoint presentations.
-    humanUrl: 
-      https://learn.microsoft.com/office/dev/add-ins/powerpoint/powerpoint-add-ins
+    humanUrl: https://learn.microsoft.com/office/dev/add-ins/powerpoint/powerpoint-add-ins
     baseUrl: https://graph.microsoft.com/v1.0/me/drive/items/{id}
     tags:
       - PowerPoint
@@ -83,37 +75,34 @@ apis:
       - Slides
     properties:
       - type: Documentation
-        url: 
-          https://learn.microsoft.com/office/dev/add-ins/powerpoint/powerpoint-add-ins
+        url: https://learn.microsoft.com/office/dev/add-ins/powerpoint/powerpoint-add-ins
       - type: QuickStart
-        url: 
-          https://learn.microsoft.com/office/dev/add-ins/quickstarts/powerpoint-quickstart
+        url: https://learn.microsoft.com/office/dev/add-ins/quickstarts/powerpoint-quickstart
   - name: Outlook Mail API
     description: >-
       API for accessing and managing email messages, calendars, and contacts.
     humanUrl: https://learn.microsoft.com/graph/api/resources/mail-api-overview
     baseUrl: https://graph.microsoft.com/v1.0/me/messages
     tags:
-      - Outlook
-      - Email
       - Calendar
       - Contacts
+      - Email
+      - Outlook
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/graph/api/resources/mail-api-overview
       - type: Permissions
-        url: 
-          https://learn.microsoft.com/graph/permissions-reference#mail-permissions
+        url: https://learn.microsoft.com/graph/permissions-reference#mail-permissions
   - name: OneDrive API
     description: >-
       API for accessing files and folders stored in OneDrive.
     humanUrl: https://learn.microsoft.com/graph/api/resources/onedrive
     baseUrl: https://graph.microsoft.com/v1.0/me/drive
     tags:
+      - Cloud Storage
+      - Files
       - OneDrive
       - Storage
-      - Files
-      - Cloud Storage
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/graph/api/resources/onedrive
@@ -125,9 +114,9 @@ apis:
     humanUrl: https://learn.microsoft.com/graph/api/resources/sharepoint
     baseUrl: https://graph.microsoft.com/v1.0/sites
     tags:
-      - SharePoint
       - Collaboration
       - Content Management
+      - SharePoint
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/graph/api/resources/sharepoint
