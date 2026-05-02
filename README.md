@@ -1,24 +1,25 @@
 # Microsoft Office Pack (microsoft-office-pack)
-A collection of APIs for Microsoft Office productivity applications including Word, Excel, PowerPoint, Outlook, and OneDrive
+A collection of APIs for Microsoft Office productivity applications including Word, Excel, PowerPoint, Outlook, and OneDrive.
 
-**URL:** [Visit APIs.json URL](https://api.example.com/apis.json)
+**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/microsoft-office-pack/refs/heads/main/apis.yml)
 
 ## Timestamps
 
-- **Created:** 2024 
-- **Modified:** 2024 
+- **Created:** 2024
+- **Modified:** 2026-04-28
 
 ## APIs
 
 ### Microsoft Graph API
-Unified API endpoint for accessing Microsoft 365 services including Office applications
+Unified API endpoint for accessing Microsoft 365 services including Office applications.
 
 **Human URL:** [https://developer.microsoft.com/graph](https://developer.microsoft.com/graph)
 
+**Base URL:** https://graph.microsoft.com/v1.0
 
 #### Tags:
 
- - Office, Productivity, Cloud, Microsoft 365
+ - Cloud, Microsoft 365, Office, Productivity
 
 #### Properties
 
@@ -29,14 +30,15 @@ Unified API endpoint for accessing Microsoft 365 services including Office appli
 - [Pricing](https://www.microsoft.com/microsoft-365/enterprise/compare-office-365-plans)
 
 ### Word API
-API for creating, reading, and modifying Word documents
+API for creating, reading, and modifying Word documents.
 
 **Human URL:** [https://learn.microsoft.com/graph/api/resources/word](https://learn.microsoft.com/graph/api/resources/word)
 
+**Base URL:** https://graph.microsoft.com/v1.0/me/drive/items/{id}/workbook
 
 #### Tags:
 
- - Word, Documents, Text Processing
+ - Documents, Text Processing, Word
 
 #### Properties
 
@@ -44,14 +46,15 @@ API for creating, reading, and modifying Word documents
 - [QuickStart](https://learn.microsoft.com/office/dev/add-ins/quickstarts/word-quickstart)
 
 ### Excel API
-API for working with Excel workbooks, worksheets, charts, and tables
+API for working with Excel workbooks, worksheets, charts, and tables.
 
 **Human URL:** [https://learn.microsoft.com/graph/api/resources/excel](https://learn.microsoft.com/graph/api/resources/excel)
 
+**Base URL:** https://graph.microsoft.com/v1.0/me/drive/items/{id}/workbook
 
 #### Tags:
 
- - Excel, Spreadsheets, Data Analysis
+ - Data Analysis, Excel, Spreadsheets
 
 #### Properties
 
@@ -60,10 +63,11 @@ API for working with Excel workbooks, worksheets, charts, and tables
 - [Samples](https://github.com/OfficeDev/Office-Add-in-samples)
 
 ### PowerPoint API
-API for creating and modifying PowerPoint presentations
+API for creating and modifying PowerPoint presentations.
 
 **Human URL:** [https://learn.microsoft.com/office/dev/add-ins/powerpoint/powerpoint-add-ins](https://learn.microsoft.com/office/dev/add-ins/powerpoint/powerpoint-add-ins)
 
+**Base URL:** https://graph.microsoft.com/v1.0/me/drive/items/{id}
 
 #### Tags:
 
@@ -75,14 +79,15 @@ API for creating and modifying PowerPoint presentations
 - [QuickStart](https://learn.microsoft.com/office/dev/add-ins/quickstarts/powerpoint-quickstart)
 
 ### Outlook Mail API
-API for accessing and managing email messages, calendars, and contacts
+API for accessing and managing email messages, calendars, and contacts.
 
 **Human URL:** [https://learn.microsoft.com/graph/api/resources/mail-api-overview](https://learn.microsoft.com/graph/api/resources/mail-api-overview)
 
+**Base URL:** https://graph.microsoft.com/v1.0/me/messages
 
 #### Tags:
 
- - Outlook, Email, Calendar, Contacts
+ - Calendar, Contacts, Email, Outlook
 
 #### Properties
 
@@ -90,14 +95,15 @@ API for accessing and managing email messages, calendars, and contacts
 - [Permissions](https://learn.microsoft.com/graph/permissions-reference#mail-permissions)
 
 ### OneDrive API
-API for accessing files and folders stored in OneDrive
+API for accessing files and folders stored in OneDrive.
 
 **Human URL:** [https://learn.microsoft.com/graph/api/resources/onedrive](https://learn.microsoft.com/graph/api/resources/onedrive)
 
+**Base URL:** https://graph.microsoft.com/v1.0/me/drive
 
 #### Tags:
 
- - OneDrive, Storage, Files, Cloud Storage
+ - Cloud Storage, Files, OneDrive, Storage
 
 #### Properties
 
@@ -105,14 +111,15 @@ API for accessing files and folders stored in OneDrive
 - [Upload](https://learn.microsoft.com/graph/api/driveitem-put-content)
 
 ### SharePoint API
-API for accessing SharePoint sites, lists, and content
+API for accessing SharePoint sites, lists, and content.
 
 **Human URL:** [https://learn.microsoft.com/graph/api/resources/sharepoint](https://learn.microsoft.com/graph/api/resources/sharepoint)
 
+**Base URL:** https://graph.microsoft.com/v1.0/sites
 
 #### Tags:
 
- - SharePoint, Collaboration, Content Management
+ - Collaboration, Content Management, SharePoint
 
 #### Properties
 
@@ -128,6 +135,6 @@ API for accessing SharePoint sites, lists, and content
 
 ## Maintainers
 
-**FN:** Microsoft
+**FN:** Kin Lane
 
-**Email:** graphsdks@microsoft.com
+**Email:** kin@apievangelist.com

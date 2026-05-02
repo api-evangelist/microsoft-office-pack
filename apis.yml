@@ -5,7 +5,7 @@ description: >-
   Excel, PowerPoint, Outlook, and OneDrive.
 image: https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2020/04/Microsoft-365-logo.png
 created: '2024'
-modified: '2026-03-16'
+modified: '2026-04-28'
 specificationVersion: '0.19'
 url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-pack/refs/heads/main/apis.yml
 apis:
