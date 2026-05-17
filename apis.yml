@@ -121,13 +121,13 @@ apis:
       - type: Documentation
         url: https://learn.microsoft.com/graph/api/resources/sharepoint
 common:
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://www.microsoft.com/servicesagreement
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://privacy.microsoft.com/privacystatement
   - type: Developer Portal
     url: https://developer.microsoft.com/microsoft-365
-  - type: Status
+  - type: StatusPage
     url: https://status.dev.microsoft.com/
   - type: Blog
     url: https://developer.microsoft.com/microsoft-365/blogs/
