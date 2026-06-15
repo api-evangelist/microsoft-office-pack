@@ -1,7 +1,8 @@
 # Microsoft Office Pack (microsoft-office-pack)
+
 A collection of APIs for Microsoft Office productivity applications including Word, Excel, PowerPoint, Outlook, and OneDrive.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/microsoft-office-pack/refs/heads/main/apis.yml)
+**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/microsoft-office-pack/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/microsoft-office-pack/refs/heads/main/apis.yml)
 
 ## Timestamps
 
@@ -11,130 +12,140 @@ A collection of APIs for Microsoft Office productivity applications including Wo
 ## APIs
 
 ### Microsoft Graph API
+
 Unified API endpoint for accessing Microsoft 365 services including Office applications.
 
-**Human URL:** [https://developer.microsoft.com/graph](https://developer.microsoft.com/graph)
+#### Tags
 
-**Base URL:** https://graph.microsoft.com/v1.0
-
-#### Tags:
-
- - Cloud, Microsoft 365, Office, Productivity
+- Cloud
+- Microsoft 365
+- Office
+- Productivity
 
 #### Properties
 
 - [Documentation](https://learn.microsoft.com/graph/api/overview)
-- [OpenAPI](https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml)
+- [OpenAPI](https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
 - [Authentication](https://learn.microsoft.com/graph/auth/)
-- [SDKs](https://learn.microsoft.com/graph/sdks/sdks-overview)
+- [S D Ks](https://learn.microsoft.com/graph/sdks/sdks-overview)
 - [Pricing](https://www.microsoft.com/microsoft-365/enterprise/compare-office-365-plans)
+- [Postman Collection](collections/microsoft-office-pack.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
+- [Open Collection](collections/microsoft-office-pack.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
 
 ### Word API
+
 API for creating, reading, and modifying Word documents.
 
-**Human URL:** [https://learn.microsoft.com/graph/api/resources/word](https://learn.microsoft.com/graph/api/resources/word)
+#### Tags
 
-**Base URL:** https://graph.microsoft.com/v1.0/me/drive/items/{id}/workbook
-
-#### Tags:
-
- - Documents, Text Processing, Word
+- Documents
+- Text Processing
+- Word
 
 #### Properties
 
 - [Documentation](https://learn.microsoft.com/office/dev/add-ins/word/word-add-ins-programming-overview)
-- [QuickStart](https://learn.microsoft.com/office/dev/add-ins/quickstarts/word-quickstart)
+- [Quick Start](https://learn.microsoft.com/office/dev/add-ins/quickstarts/word-quickstart)
+- [Postman Collection](collections/microsoft-office-pack.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
+- [Open Collection](collections/microsoft-office-pack.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
 
 ### Excel API
+
 API for working with Excel workbooks, worksheets, charts, and tables.
 
-**Human URL:** [https://learn.microsoft.com/graph/api/resources/excel](https://learn.microsoft.com/graph/api/resources/excel)
+#### Tags
 
-**Base URL:** https://graph.microsoft.com/v1.0/me/drive/items/{id}/workbook
-
-#### Tags:
-
- - Data Analysis, Excel, Spreadsheets
+- Data Analysis
+- Excel
+- Spreadsheets
 
 #### Properties
 
 - [Documentation](https://learn.microsoft.com/graph/api/resources/excel)
-- [QuickStart](https://learn.microsoft.com/office/dev/add-ins/quickstarts/excel-quickstart-jquery)
+- [Quick Start](https://learn.microsoft.com/office/dev/add-ins/quickstarts/excel-quickstart-jquery)
 - [Samples](https://github.com/OfficeDev/Office-Add-in-samples)
+- [Postman Collection](collections/microsoft-office-pack.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
+- [Open Collection](collections/microsoft-office-pack.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
 
 ### PowerPoint API
+
 API for creating and modifying PowerPoint presentations.
 
-**Human URL:** [https://learn.microsoft.com/office/dev/add-ins/powerpoint/powerpoint-add-ins](https://learn.microsoft.com/office/dev/add-ins/powerpoint/powerpoint-add-ins)
+#### Tags
 
-**Base URL:** https://graph.microsoft.com/v1.0/me/drive/items/{id}
-
-#### Tags:
-
- - PowerPoint, Presentations, Slides
+- PowerPoint
+- Presentations
+- Slides
 
 #### Properties
 
 - [Documentation](https://learn.microsoft.com/office/dev/add-ins/powerpoint/powerpoint-add-ins)
-- [QuickStart](https://learn.microsoft.com/office/dev/add-ins/quickstarts/powerpoint-quickstart)
+- [Quick Start](https://learn.microsoft.com/office/dev/add-ins/quickstarts/powerpoint-quickstart)
+- [Postman Collection](collections/microsoft-office-pack.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
+- [Open Collection](collections/microsoft-office-pack.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
 
 ### Outlook Mail API
+
 API for accessing and managing email messages, calendars, and contacts.
 
-**Human URL:** [https://learn.microsoft.com/graph/api/resources/mail-api-overview](https://learn.microsoft.com/graph/api/resources/mail-api-overview)
+#### Tags
 
-**Base URL:** https://graph.microsoft.com/v1.0/me/messages
-
-#### Tags:
-
- - Calendar, Contacts, Email, Outlook
+- Calendar
+- Contacts
+- Email
+- Outlook
 
 #### Properties
 
 - [Documentation](https://learn.microsoft.com/graph/api/resources/mail-api-overview)
 - [Permissions](https://learn.microsoft.com/graph/permissions-reference#mail-permissions)
+- [Postman Collection](collections/microsoft-office-pack.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
+- [Open Collection](collections/microsoft-office-pack.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
 
 ### OneDrive API
+
 API for accessing files and folders stored in OneDrive.
 
-**Human URL:** [https://learn.microsoft.com/graph/api/resources/onedrive](https://learn.microsoft.com/graph/api/resources/onedrive)
+#### Tags
 
-**Base URL:** https://graph.microsoft.com/v1.0/me/drive
-
-#### Tags:
-
- - Cloud Storage, Files, OneDrive, Storage
+- Cloud Storage
+- Files
+- OneDrive
+- Storage
 
 #### Properties
 
 - [Documentation](https://learn.microsoft.com/graph/api/resources/onedrive)
 - [Upload](https://learn.microsoft.com/graph/api/driveitem-put-content)
+- [Postman Collection](collections/microsoft-office-pack.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
+- [Open Collection](collections/microsoft-office-pack.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
 
 ### SharePoint API
+
 API for accessing SharePoint sites, lists, and content.
 
-**Human URL:** [https://learn.microsoft.com/graph/api/resources/sharepoint](https://learn.microsoft.com/graph/api/resources/sharepoint)
+#### Tags
 
-**Base URL:** https://graph.microsoft.com/v1.0/sites
-
-#### Tags:
-
- - Collaboration, Content Management, SharePoint
+- Collaboration
+- Content Management
+- SharePoint
 
 #### Properties
 
 - [Documentation](https://learn.microsoft.com/graph/api/resources/sharepoint)
+- [Postman Collection](collections/microsoft-office-pack.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
+- [Open Collection](collections/microsoft-office-pack.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
 
 ## Common Properties
 
 - [Terms of Service](https://www.microsoft.com/servicesagreement)
 - [Privacy Policy](https://privacy.microsoft.com/privacystatement)
-- [Developer Portal](https://developer.microsoft.com/microsoft-365)
-- [Status](https://status.dev.microsoft.com/)
+- [Developer  Portal](https://developer.microsoft.com/microsoft-365)
+- [Status Page](https://status.dev.microsoft.com/)
 - [Blog](https://developer.microsoft.com/microsoft-365/blogs/)
+- [Integrations](https://www.microsoft.com/en-us/marketplace)
 
 ## Maintainers
 
 **FN:** Kin Lane
-
 **Email:** kin@apievangelist.com
