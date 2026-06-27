@@ -46,7 +46,7 @@ apis:
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/office/dev/add-ins/word/word-add-ins-programming-overview
-      - type: QuickStart
+      - type: GettingStarted
         url: https://learn.microsoft.com/office/dev/add-ins/quickstarts/word-quickstart
   - name: Excel API
     description: >-
@@ -60,7 +60,7 @@ apis:
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/graph/api/resources/excel
-      - type: QuickStart
+      - type: GettingStarted
         url: https://learn.microsoft.com/office/dev/add-ins/quickstarts/excel-quickstart-jquery
       - type: Samples
         url: https://github.com/OfficeDev/Office-Add-in-samples
@@ -76,7 +76,7 @@ apis:
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/office/dev/add-ins/powerpoint/powerpoint-add-ins
-      - type: QuickStart
+      - type: GettingStarted
         url: https://learn.microsoft.com/office/dev/add-ins/quickstarts/powerpoint-quickstart
   - name: Outlook Mail API
     description: >-
@@ -125,7 +125,7 @@ common:
     url: https://www.microsoft.com/servicesagreement
   - type: PrivacyPolicy
     url: https://privacy.microsoft.com/privacystatement
-  - type: Developer Portal
+  - type: DeveloperPortal
     url: https://developer.microsoft.com/microsoft-365
   - type: StatusPage
     url: https://status.dev.microsoft.com/
