@@ -121,6 +121,8 @@ apis:
       - type: Documentation
         url: https://learn.microsoft.com/graph/api/resources/sharepoint
 common:
+  - type: OAuthScopes
+    url: scopes/microsoft-office-pack-scopes.yml
   - type: TermsOfService
     url: https://www.microsoft.com/servicesagreement
   - type: PrivacyPolicy
