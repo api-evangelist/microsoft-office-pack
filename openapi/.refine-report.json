@@ -1,0 +1,18 @@
+{
+  "provider": "microsoft-office-pack",
+  "sources": [
+    "microsoft-office-pack-drive-api-openapi.yml",
+    "microsoft-office-pack-mail-api-openapi.yml",
+    "microsoft-office-pack-teams-api-openapi.yml"
+  ],
+  "outputs": [
+    "microsoft-office-pack-drive-api-openapi.yml",
+    "microsoft-office-pack-mail-api-openapi.yml",
+    "microsoft-office-pack-teams-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
