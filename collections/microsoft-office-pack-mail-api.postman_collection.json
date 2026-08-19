@@ -1,0 +1,430 @@
+{
+  "item": [
+    {
+      "id": "f8ece984-842e-4802-949a-73aabfb7afdb",
+      "name": "Mail",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "a19cbf59-519d-4bf5-9f73-4a0fca7232b8",
+          "name": "List the signed-in user's messages",
+          "request": {
+            "name": "List the signed-in user's messages",
+            "description": {},
+            "url": {
+              "path": [
+                "me",
+                "messages"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": false,
+                  "key": "$select",
+                  "value": "<string>"
+                },
+                {
+                  "disabled": false,
+                  "key": "$top",
+                  "value": "<integer>"
+                },
+                {
+                  "disabled": false,
+                  "key": "$filter",
+                  "value": "<string>"
+                },
+                {
+                  "disabled": false,
+                  "key": "$orderby",
+                  "value": "<string>"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "a2a9563c-6c57-43c4-8013-793484b3c24e",
+              "name": "A collection of messages",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "me",
+                    "messages"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "$select",
+                      "value": "<string>"
+                    },
+                    {
+                      "key": "$top",
+                      "value": "<integer>"
+                    },
+                    {
+                      "key": "$filter",
+                      "value": "<string>"
+                    },
+                    {
+                      "key": "$orderby",
+                      "value": "<string>"
+                    }
+                  ],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: oauth2",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "<token>"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"@odata.context\": \"string\",\n  \"value\": [\n    {\n      \"id\": \"string\",\n      \"subject\": \"string\",\n      \"bodyPreview\": \"string\",\n      \"from\": {\n        \"emailAddress\": {\n          \"name\": \"string\",\n          \"address\": \"string\"\n        }\n      },\n      \"receivedDateTime\": \"1974-12-02T10:42:08.430Z\"\n    },\n    {\n      \"id\": \"string\",\n      \"subject\": \"string\",\n      \"bodyPreview\": \"string\",\n      \"from\": {\n        \"emailAddress\": {\n          \"name\": \"string\",\n          \"address\": \"string\"\n        }\n      },\n      \"receivedDateTime\": \"1988-02-05T18:06:57.936Z\"\n    }\n  ]\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "b85029e4-c09c-4a55-b3eb-e516362c0671",
+          "name": "Get a message by id",
+          "request": {
+            "name": "Get a message by id",
+            "description": {},
+            "url": {
+              "path": [
+                "me",
+                "messages",
+                ":id"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "id",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "a47ac59e-bea7-4a29-a911-fa5c34d7c87c",
+              "name": "Message",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "me",
+                    "messages",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: oauth2",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "<token>"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"id\": \"string\",\n  \"subject\": \"string\",\n  \"bodyPreview\": \"string\",\n  \"from\": {\n    \"emailAddress\": {\n      \"name\": \"string\",\n      \"address\": \"string\"\n    }\n  },\n  \"receivedDateTime\": \"2020-05-20T09:11:14.750Z\"\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "64436f78-98c4-4361-b879-70504c0cdc3d",
+          "name": "Send a mail message as the signed-in user",
+          "request": {
+            "name": "Send a mail message as the signed-in user",
+            "description": {},
+            "url": {
+              "path": [
+                "me",
+                "sendMail"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": {\n    \"subject\": \"<string>\",\n    \"body\": {\n      \"contentType\": \"<string>\",\n      \"content\": \"<string>\"\n    },\n    \"toRecipients\": [\n      {\n        \"emailAddress\": {\n          \"address\": \"<string>\"\n        }\n      },\n      {\n        \"emailAddress\": {\n          \"address\": \"<string>\"\n        }\n      }\n    ]\n  },\n  \"saveToSentItems\": \"<boolean>\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "71ee2b31-4dbd-4402-a039-d8c0cc88f051",
+              "name": "Accepted",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "me",
+                    "sendMail"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: oauth2",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "<token>"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"message\": {\n    \"subject\": \"<string>\",\n    \"body\": {\n      \"contentType\": \"<string>\",\n      \"content\": \"<string>\"\n    },\n    \"toRecipients\": [\n      {\n        \"emailAddress\": {\n          \"address\": \"<string>\"\n        }\n      },\n      {\n        \"emailAddress\": {\n          \"address\": \"<string>\"\n        }\n      }\n    ]\n  },\n  \"saveToSentItems\": \"<boolean>\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Accepted",
+              "code": 202,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "2ed70a87-7453-49d1-8671-abd4a6fc79cb",
+          "name": "List mail folders",
+          "request": {
+            "name": "List mail folders",
+            "description": {},
+            "url": {
+              "path": [
+                "me",
+                "mailFolders"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "c1bad81c-cccf-4048-be45-cdc388ce5e3f",
+              "name": "Collection of mail folders",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "me",
+                    "mailFolders"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: oauth2",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "<token>"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://graph.microsoft.com/v1.0",
+      "key": "baseUrl"
+    }
+  ],
+  "auth": {
+    "type": "oauth2",
+    "oauth2": [
+      {
+        "key": "scope",
+        "value": "Mail.Read Mail.Send Files.Read Files.ReadWrite Team.ReadBasic.All ChannelMessage.Send User.Read"
+      },
+      {
+        "key": "accessTokenUrl",
+        "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+      },
+      {
+        "key": "authUrl",
+        "value": "https://login.microsoftonline.com/common/oauth2/v2.0/authorize"
+      },
+      {
+        "key": "grant_type",
+        "value": "authorization_code"
+      }
+    ]
+  },
+  "info": {
+    "_postman_id": "e715d03d-3044-43df-a7e8-ad807f78c312",
+    "name": "Microsoft Graph API - Office Pack Drive Mail API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "A subset of Microsoft Graph v1.0 endpoints used to interact with Microsoft Office 365 services - Outlook mail, OneDrive files, and Microsoft Teams. Microsoft Graph is the unified REST API for Microsoft 365 services and uses OAuth 2.0 (Microsoft Entra ID) for authentication.",
+      "type": "text/plain"
+    }
+  }
+}
