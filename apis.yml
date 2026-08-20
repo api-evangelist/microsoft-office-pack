@@ -83,6 +83,11 @@ apis:
   baseUrl: https://graph.microsoft.com/v1.0/me/drive
   tags:
   - Cloud Storage
+  - File
+  - OneDrive
+  - Storage
+  tags_raw:
+  - Cloud Storage
   - Files
   - OneDrive
   - Storage
@@ -106,6 +111,8 @@ apis:
   name: Microsoft Office Pack Drive API
   description: The Drive API from Microsoft Office Pack — 4 operation(s) for drive.
   tags:
+  - Drives
+  tags_raw:
   - Drive
   properties:
   - type: OpenAPI
@@ -138,6 +145,8 @@ apis:
   name: Microsoft Office Pack Teams API
   description: The Teams API from Microsoft Office Pack — 4 operation(s) for teams.
   tags:
+  - Team
+  tags_raw:
   - Teams
   properties:
   - type: OpenAPI
