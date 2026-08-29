@@ -60,7 +60,7 @@ apis:
     url: https://learn.microsoft.com/graph/api/resources/excel
   - type: GettingStarted
     url: https://learn.microsoft.com/office/dev/add-ins/quickstarts/excel-quickstart-jquery
-  - type: Samples
+  - type: Examples
     url: https://github.com/OfficeDev/Office-Add-in-samples
 - name: PowerPoint API
   description: API for creating and modifying PowerPoint presentations.
