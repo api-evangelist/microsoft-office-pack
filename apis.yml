@@ -123,7 +123,7 @@ apis:
   name: Microsoft Office Pack Drive API
   description: The Drive API from Microsoft Office Pack — 4 operation(s) for drive.
   tags:
-  - Drive
+  - Drives
   tags_raw:
   - Drive
   properties:
